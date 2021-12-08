@@ -4,6 +4,8 @@ import React from 'react';
 
 import Chart from "react-google-charts";
 
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 //current values request
 //https://oylpp760bf.execute-api.us-east-2.amazonaws.com/prod/hydro_curr_vals
 function compare( a, b ) {
@@ -342,7 +344,7 @@ function App() {
     <div className="App">
       <header className="App-header">
       </header>
-      <h1>Hydroponics</h1>
+      <img src="hydroIgrow.png" alt="logo" width="500"/>
       <p>For EECS 473. Created by Peter Hammel, Cole Hudson, Tanvi Jivtode, Ashvin Kumar, Brian Oo, and XiaoXue Zhong</p>
       <HydroponicsTable/>
     </div>
