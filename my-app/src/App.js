@@ -397,8 +397,8 @@ function App() {
           </nav>
         </div>
       </header>
-      <p>For EECS 473. Created by Peter Hammel, Cole Hudson, Tanvi Jivtode, Ashvin Kumar, Brian Oo, and XiaoXue Zhong</p>
       <HydroponicsTable/>
+      <i><h4>For EECS 473. Created by Peter Hammel, Cole Hudson, Tanvi Jivtode, Ashvin Kumar, Brian Oo, and XiaoXue Zhong</h4></i>
     </div>
   );
 }
