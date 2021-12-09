@@ -188,8 +188,8 @@ class HydroponicsTable extends React.Component {
                 </div>
                 <div class="card-body">
                   <select class="form-select center" style={selectStyle} name="timeRange" id="timeRange" value={this.state.selected} onChange={this.handleChange}>
-                    <option value="hour">hour</option>
                     <option value="day">day</option>
+                    <option value="hour">hour</option>
                     <option value="week">week</option>
                   </select>
                 </div>
