@@ -117,9 +117,18 @@ class HydroponicsTable extends React.Component {
           if(hoursDif < this.state.hourDifference){
             id_items_ph.push([time, items[i].pH]);
             id_items_tds.push([time, items[i].TDS]);
-            id_items_waterTemp.push([time, items[i]["Water Temp"]]);
-            id_items_airTemp.push([time, items[i]["Air Temp"]]);
-            id_items_humidity.push([time, items[i].Humidity]);
+
+            if(items[i]["Water Temp"] > 0){
+              id_items_waterTemp.push([time, items[i]["Water Temp"]]);
+            }
+
+            if(items[i]["Air Temp"] > 0){
+              id_items_airTemp.push([time, items[i]["Air Temp"]]);
+            }
+
+            if(items[i]["Humidity"] > 0){
+              id_items_humidity.push([time, items[i].Humidity]);
+            }
 
             sorted_objects.push([time, items[i]]);
           }
