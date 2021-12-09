@@ -280,7 +280,7 @@ class HydroponicsTable extends React.Component {
                     title: 'Time',
                   },
                   vAxis: {
-                    title: 'Water Temp',
+                    title: 'Water Temp (C)',
                   },
                 }}
                 rootProps={{ 'data-testid': '1' }}
@@ -303,7 +303,7 @@ class HydroponicsTable extends React.Component {
                     title: 'Time',
                   },
                   vAxis: {
-                    title: 'Air Temp',
+                    title: 'Air Temp (C)',
                   },
                 }}
                 rootProps={{ 'data-testid': '1' }}
