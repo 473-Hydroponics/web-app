@@ -212,6 +212,7 @@ class HydroponicsTable extends React.Component {
           </div>
           </div>
 
+          <div class="container py-3">
           <h3>Graphs</h3>
 
           <table className="center">
@@ -336,7 +337,9 @@ class HydroponicsTable extends React.Component {
             </tr>
           </tbody>
           </table>
+          </div>
 
+          <div class="container py-3">
           <h3>All Values</h3>
 
           <div class="container py-3">
@@ -345,9 +348,9 @@ class HydroponicsTable extends React.Component {
           <tr>
             <th>Time</th>
             <th>pH</th>
-            <th>tds</th>
-            <th>Water Temp</th>
-            <th>Air Temp</th>
+            <th>EC</th>
+            <th>Water Temp (C)</th>
+            <th>Air Temp (C)</th>
             <th>Humidity</th>
           </tr>
           </thead>
@@ -376,6 +379,7 @@ class HydroponicsTable extends React.Component {
             ))}
           </tbody>
           </table>
+          </div>
           </div>
         </div>
       );
